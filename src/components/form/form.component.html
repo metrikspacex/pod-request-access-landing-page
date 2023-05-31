@@ -1,0 +1,11 @@
+<form>
+  <input
+    #email
+    class="text-clr-4 fs-400"
+    placeholder="Email Address"
+    type="email" />
+  <p *ngIf="this.error" class="fs-200" style="color: #fb3e3e">
+    Oops! Please check your email
+  </p>
+  <app-button (click)="this.isError()" />
+</form>

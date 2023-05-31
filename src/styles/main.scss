@@ -1,0 +1,15 @@
+@use "./colors" as *;
+@use "./reset" as *;
+@use "./root" as *;
+@use "./typography.scss" as *;
+
+body {
+  background-color: hsl(var(--clr-3));
+  color: hsl(var(--clr-6));
+  min-height: 100vh;
+  display: grid;
+}
+
+app-root {
+  display: block;
+}

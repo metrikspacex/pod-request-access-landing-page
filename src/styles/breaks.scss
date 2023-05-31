@@ -1,0 +1,22 @@
+/* stylelint-disable scss/at-else-closing-brace-space-after */
+/* stylelint-disable scss/at-else-closing-brace-newline-after */
+/* stylelint-disable scss/at-if-closing-brace-newline-after */
+/* stylelint-disable scss/at-if-closing-brace-space-after */
+/* stylelint-disable scss/operator-no-unspaced */
+@mixin breaks($device) {
+  @if $device ==mobile {
+    @media (width <724px) {
+      @content;
+    }
+  }
+  @else if $device ==tablet {
+    @media (724px <=width < 1440px) {
+      @content;
+    }
+  }
+  @else if $device ==desktop {
+    @media (1440px <=width) {
+      @content;
+    }
+  }
+}

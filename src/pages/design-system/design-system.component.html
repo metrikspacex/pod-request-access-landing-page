@@ -1,0 +1,163 @@
+<header>
+  <app-logo />
+  <h1 class="design-system fs-700 text-clr-4 uppercase letter-spacing-1">
+    Design System
+  </h1>
+</header>
+<main>
+  <section aria-label="colors">
+    <div class="bg-1">
+      <h1 class="fs-500" style="color: #25293a">#54e6af</h1>
+      <p class="fs-300 blend-normal" style="color: hsl(229deg 22% 19% / 50%)">
+        RGB
+        <span style="color: #25293a">84, 230, 175</span>
+      </p>
+      <p class="fs-300 blend-normal" style="color: hsl(229deg 22% 19% / 50%)">
+        HSL
+        <span style="color: #25293a">157&deg;, 74%, 62%</span>
+      </p>
+    </div>
+    <div class="bg-2">
+      <h1 class="fs-500 text-clr-4">#2c3444b</h1>
+      <p class="fs-300 blend-normal" style="color: hsl(var(--clr-4) / 50%)">
+        RGB
+        <span class="text-clr-4">44, 52, 75</span>
+      </p>
+      <p class="fs-300 blend-normal" style="color: hsl(var(--clr-4) / 50%)">
+        HSL
+        <span class="text-clr-4">225&deg;, 26%, 23%</span>
+      </p>
+    </div>
+    <div class="bg-3" style="border: 1px solid rgba(255, 255, 255, 0.098719)">
+      <h1 class="fs-500 text-clr-4">#121725</h1>
+      <p class="fs-300 blend-normal" style="color: hsl(var(--clr-4) / 50%)">
+        RGB
+        <span class="text-clr-4">18, 23, 37</span>
+      </p>
+      <p class="fs-300 blend-normal" style="color: hsl(var(--clr-4) / 50%)">
+        HSL
+        <span class="text-clr-4">224&deg;, 35%, 11%</span>
+      </p>
+    </div>
+    <div class="bg-4" style="color: hsl(var(--util-clr))">
+      <h1 class="fs-500">#FFFFFF</h1>
+      <p class="fs-300" style="color: hsl(var(--util-clr) / 50%)">
+        RGB
+        <span style="color: hsl(var(--util-clr))">255, 255, 255</span>
+      </p>
+      <p class="fs-300" style="color: hsl(var(--util-clr) / 50%)">
+        HSL
+        <span style="color: hsl(var(--util-clr))">0&deg;, 0%, 100%</span>
+      </p>
+    </div>
+    <div class="bg-5">
+      <h1 class="fs-500 text-clr-4">#5A668A</h1>
+      <p class="fs-300 blend-normal" style="color: hsl(var(--clr-4) / 50%)">
+        RGB
+        <span class="text-clr-4">90, 102, 138</span>
+      </p>
+      <p class="fs-300 blend-normal" style="color: hsl(var(--clr-4) / 50%)">
+        HSL
+        <span class="text-clr-4">225&deg;, 21%, 45%</span>
+      </p>
+    </div>
+    <div class="bg-6">
+      <h1 class="fs-500" style="color: #25293a">#C2CBE5</h1>
+      <p class="fs-300 blend-normal" style="color: hsl(229deg 22% 19% / 50%)">
+        RGB
+        <span style="color: #25293a">194, 203, 229</span>
+      </p>
+      <p class="fs-300 blend-normal" style="color: hsl(229deg 22% 19% / 50%)">
+        HSL
+        <span style="color: #25293a">225&deg;, 40%, 83%</span>
+      </p>
+    </div>
+  </section>
+
+  <section aria-label="typography">
+    <h1 class="typography">Chivo</h1>
+    <h1 class="alphabet">
+      <span class="cap uppercase">abcdefghijklmnopqrstuvwxyz</span>
+      <span class="lower" style="font-weight: 100; line-height: 1px">
+        abcdefghijklmnopqrstuvwxyz1234567890
+      </span>
+      <span class="special">!@#$%^&*()_+</span>
+    </h1>
+
+    <div class="title">
+      <h1 class="fs-300 text-clr-4" style="margin-bottom: 3.2rem">
+        Title
+        <span class="blend-opacity" style="margin-left: 1.3rem">
+          Chivo Light - 52px - 62px line - All Caps
+        </span>
+      </h1>
+      <div class="fs-900 uppercase text-clr-4">
+        Quisque volutpat mattis eros. Nullam malesuada erat ut
+      </div>
+    </div>
+
+    <div class="body">
+      <h1 class="fs-300 text-clr-4" style="margin-bottom: 3.2rem">
+        Body
+        <span class="blend-opacity" style="margin-left: 1.3rem">
+          Chivo Light - 18px - 28px line
+        </span>
+      </h1>
+      <div class="fs-400 text-clr-6">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus
+        hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet
+        vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin
+        laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu
+        nibh. Nullam mollis. Ut justo.
+      </div>
+    </div>
+  </section>
+
+  <section aria-label="components">
+    <div class="form">
+      <div>
+        <h1
+          class="text-clr-4 blend-opacity"
+          style="text-align: center; margin-bottom: 3rem">
+          Form Default
+        </h1>
+        <app-form />
+      </div>
+      <div>
+        <h1
+          class="text-clr-4 blend-opacity"
+          style="text-align: center; margin-bottom: 3rem">
+          Form Active
+        </h1>
+        <app-form />
+      </div>
+      <div>
+        <h1
+          class="text-clr-4 blend-opacity"
+          style="text-align: center; margin-bottom: 3rem">
+          Form Error
+        </h1>
+        <app-form />
+      </div>
+    </div>
+
+    <div class="button">
+      <div>
+        <h1
+          class="text-clr-4 blend-opacity"
+          style="text-align: center; margin-bottom: 3rem">
+          Button Default
+        </h1>
+        <app-button />
+      </div>
+      <div>
+        <h1
+          class="text-clr-4 blend-opacity"
+          style="text-align: center; margin-bottom: 3rem">
+          Button Hover
+        </h1>
+        <app-button id="trigger-hovered" />
+      </div>
+    </div>
+  </section>
+</main>

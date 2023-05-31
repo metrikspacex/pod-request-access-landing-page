@@ -1,0 +1,34 @@
+:host {
+  background-color: hsl(var(--clr-1));
+  border-radius: 2.8rem;
+  box-shadow: 0 2.5rem 2rem -2rem rgb(84 230 175 / 20%);
+  color: hsl(var(--clr-3));
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  height: 4.6rem;
+  line-height: 28px;
+  width: 16.2rem;
+  &:hover {
+    background-color: #B3FFE2;
+    cursor: pointer;
+  }
+}
+
+button {
+  background-color: inherit;
+  border-radius: inherit;
+  border: 0;
+  box-shadow: inherit;
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  height: 100%;
+  line-height: inherit;
+  outline-color: transparent;
+  width: 100%;
+  &:hover {
+    background-color: #B3FFE2;
+    cursor: pointer;
+  }
+}
