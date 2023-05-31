@@ -29,8 +29,8 @@
                   "type": "initial"
                 },
                 {
-                  "maximumError": "4kb",
-                  "maximumWarning": "2kb",
+                  "maximumError": "1mb",
+                  "maximumWarning": "500kb",
                   "type": "anyComponentStyle"
                 }
               ],
@@ -55,6 +55,9 @@
             ],
             "tsConfig": "tsconfig.app.json"
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
